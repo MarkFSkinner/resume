@@ -1,0 +1,326 @@
+//Original
+/*$primary-color: #41B3A3;
+$complementary-color: #E8A87C;
+$accent-color: #E27D60;*/
+
+//Corporate and Serious
+/*$primary-color: #022140;
+$complementary-color: #265077;*/
+
+//Corporate and Traditional
+$primary-color: #254E58;
+$complementary-color: #88BDBC;
+$accent-color: #4F4A41;
+
+
+$plain-text-color: #3a4145;
+$off-white: hsl(0, 0%, 99%);
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  //line-height: 1.6;
+  padding: 0;
+  margin: 0;
+  color: $plain-text-color;
+  background-color: $off-white;
+}
+
+#container {
+  width: 100%;
+  margin-top: -2rem;
+}
+
+#main {
+  width: 100%;
+}
+
+section {
+  border-bottom: 1px solid hsl(0, 0%, 90%);
+  //padding-top: 2.75rem;
+  //padding-bottom: 2.75rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem;
+}
+
+#header {
+  //text-align: center;
+  //padding-bottom: 1rem;
+  //width: 100%;
+  background-color: $primary-color;
+  color: $off-white;
+}
+
+#title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+#info {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#info p {
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+#title a:hover {
+  text-decoration: none;
+}
+
+#info i {
+  color: $off-white;
+}
+
+#info i:hover {
+  color: $complementary-color;
+}
+
+.left-link {
+  margin-right: 0.25rem;
+}
+
+.right-link {
+  margin-left: 0.25rem;
+}
+
+.header-link {
+  text-decoration: none;
+  color: $off-white;
+}
+
+.header-link:visited {
+  text-decoration: none;
+  color: $off-white;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+  color: $complementary-color;
+}
+
+.external-link {
+  text-decoration: none;
+  color: $plain-text-color;
+}
+
+.external-link:visited {
+  text-decoration: none;
+  color: $plain-text-color;
+}
+
+.external-link:hover {
+  text-decoration: underline;
+  //color: -webkit-link;
+  color: $complementary-color;
+}
+
+#projects {
+  display: block;
+  width: auto;
+  vertical-align: top;
+  //border-bottom: 1px solid hsl(0, 0%, 90%);
+  padding-right: 3rem;
+}
+
+#projects h2 a {
+  //color: $accent-color;
+  color: $primary-color;
+}
+
+#projects h2 a:hover {
+  color: $complementary-color;
+}
+
+#skills {
+  border-bottom: none;
+  display: block;
+  width: auto;
+  vertical-align: top;
+  padding-left: 3rem;
+}
+
+#education {
+  border-top: 1px solid hsl(0, 0%, 90%);
+}
+
+.entry {
+  margin-bottom: 2rem;
+}
+
+.details {
+  width: 100%;
+}
+
+.location {
+  display: inline-block;
+  width: 49%;
+}
+
+.date {
+  display: inline-block;
+  width: 49%;
+  text-align: right;
+}
+
+.divider {
+  display: block;
+  width: 100%;
+  color: hsl(0, 0%, 90%);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.07rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  letter-spacing: 0.07rem;
+  //color: $accent-color;
+  color: $primary-color;
+  //color: $complementary-color;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  //color: $accent-color;
+}
+
+h4 {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: $complementary-color;
+  font-style: italic;
+}
+
+h4 a, h4 a:visited {
+  text-decoration: none;
+  color: $complementary-color;
+}
+
+h4 a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  list-style: none; /* Remove default bullets */
+  font-size: 0.75rem;
+}
+
+li::before {
+  content: "\2022";
+  //color: $accent-color;
+  color: $primary-color;
+  font-weight: bold;
+  display: inline-block;
+  width: 1rem;
+  margin-left: -1rem;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+#footer a {
+  margin-right: 0.9375rem;
+  margin-left: 0.9375rem;
+}
+
+#footer i:hover {
+  color: $complementary-color;
+}
+
+i {
+  font-size: 2rem;
+  color: $plain-text-color;
+}
+
+.left-list, .right-list {
+  display: block;
+  width: auto;
+  vertical-align: top;
+}
+
+.left-list {
+  margin-bottom: 0rem;
+}
+
+.right-list {
+  margin-top: 0rem;
+}
+
+@media screen and (min-width: 824px) {
+  #container {
+    margin-top: 0rem;
+  }
+
+  #title {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    padding-top: 0rem;
+  }
+
+  #info {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 3.25rem;
+  }
+
+  #projects {
+    border-bottom: none;
+    display: inline-block;
+    width: 55%;
+    padding-right: 0rem;
+  }
+
+  #skills {
+    border-bottom: none;
+    display: inline-block;
+    width: 25%;
+    //padding-left: 0rem;
+  }
+
+  .left-list, .right-list {
+    display: inline-block;
+    width: 42%;
+  }
+  .left-list {
+    margin-bottom: 0.5rem;
+  }
+
+  .right-list {
+    margin-top: 0.5rem;
+  }
+}
+
+
+

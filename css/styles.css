@@ -1,0 +1,246 @@
+/*$primary-color: #41B3A3;
+$complementary-color: #E8A87C;
+$accent-color: #E27D60;*/
+/*$primary-color: #022140;
+$complementary-color: #265077;*/
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #3a4145;
+  background-color: #fcfcfc; }
+
+#container {
+  width: 100%;
+  margin-top: -2rem; }
+
+#main {
+  width: 100%; }
+
+section {
+  border-bottom: 1px solid #e6e6e6;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem; }
+
+#header {
+  background-color: #254E58;
+  color: #fcfcfc; }
+
+#title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem; }
+
+#info {
+  display: block;
+  width: 100%;
+  text-align: center; }
+
+#info p {
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem; }
+
+#title a:hover {
+  text-decoration: none; }
+
+#info i {
+  color: #fcfcfc; }
+
+#info i:hover {
+  color: #88BDBC; }
+
+.left-link {
+  margin-right: 0.25rem; }
+
+.right-link {
+  margin-left: 0.25rem; }
+
+.header-link {
+  text-decoration: none;
+  color: #fcfcfc; }
+
+.header-link:visited {
+  text-decoration: none;
+  color: #fcfcfc; }
+
+.header-link:hover {
+  text-decoration: underline;
+  color: #88BDBC; }
+
+.external-link {
+  text-decoration: none;
+  color: #3a4145; }
+
+.external-link:visited {
+  text-decoration: none;
+  color: #3a4145; }
+
+.external-link:hover {
+  text-decoration: underline;
+  color: #88BDBC; }
+
+#projects {
+  display: block;
+  width: auto;
+  vertical-align: top;
+  padding-right: 3rem; }
+
+#projects h2 a {
+  color: #254E58; }
+
+#projects h2 a:hover {
+  color: #88BDBC; }
+
+#skills {
+  border-bottom: none;
+  display: block;
+  width: auto;
+  vertical-align: top;
+  padding-left: 3rem; }
+
+#education {
+  border-top: 1px solid #e6e6e6; }
+
+.entry {
+  margin-bottom: 2rem; }
+
+.details {
+  width: 100%; }
+
+.location {
+  display: inline-block;
+  width: 49%; }
+
+.date {
+  display: inline-block;
+  width: 49%;
+  text-align: right; }
+
+.divider {
+  display: block;
+  width: 100%;
+  color: #e6e6e6; }
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.07rem; }
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  letter-spacing: 0.07rem;
+  color: #254E58; }
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
+
+h4 {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #88BDBC;
+  font-style: italic; }
+
+h4 a, h4 a:visited {
+  text-decoration: none;
+  color: #88BDBC; }
+
+h4 a:hover {
+  text-decoration: underline; }
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
+
+ul {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  list-style: none;
+  /* Remove default bullets */
+  font-size: 0.75rem; }
+
+li::before {
+  content: "\2022";
+  color: #254E58;
+  font-weight: bold;
+  display: inline-block;
+  width: 1rem;
+  margin-left: -1rem; }
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
+
+#footer a {
+  margin-right: 0.9375rem;
+  margin-left: 0.9375rem; }
+
+#footer i:hover {
+  color: #88BDBC; }
+
+i {
+  font-size: 2rem;
+  color: #3a4145; }
+
+.left-list, .right-list {
+  display: block;
+  width: auto;
+  vertical-align: top; }
+
+.left-list {
+  margin-bottom: 0rem; }
+
+.right-list {
+  margin-top: 0rem; }
+
+@media screen and (min-width: 824px) {
+  #container {
+    margin-top: 0rem; }
+
+  #title {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    padding-top: 0rem; }
+
+  #info {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 3.25rem; }
+
+  #projects {
+    border-bottom: none;
+    display: inline-block;
+    width: 55%;
+    padding-right: 0rem; }
+
+  #skills {
+    border-bottom: none;
+    display: inline-block;
+    width: 25%; }
+
+  .left-list, .right-list {
+    display: inline-block;
+    width: 42%; }
+
+  .left-list {
+    margin-bottom: 0.5rem; }
+
+  .right-list {
+    margin-top: 0.5rem; } }
+
+/*# sourceMappingURL=styles.css.map */
