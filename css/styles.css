@@ -40,8 +40,8 @@ section {
 
 #info p {
   font-size: 0.85rem;
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem; }
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; }
 
 #title a:hover {
   text-decoration: none; }
@@ -52,6 +52,9 @@ section {
 #info i:hover {
   color: #88BDBC; }
 
+/*#header-logos {
+  margin-top: 0.5rem;
+}*/
 .left-link {
   margin-right: 0.25rem; }
 
