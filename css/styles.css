@@ -1,8 +1,3 @@
-/*$primary-color: #41B3A3;
-$complementary-color: #E8A87C;
-$accent-color: #E27D60;*/
-/*$primary-color: #022140;
-$complementary-color: #265077;*/
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   padding: 0;
@@ -52,9 +47,6 @@ section {
 #info i:hover {
   color: #88BDBC; }
 
-/*#header-logos {
-  margin-top: 0.5rem;
-}*/
 .left-link {
   margin-right: 0.25rem; }
 
@@ -168,7 +160,7 @@ ul {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   list-style: none;
-  /* Remove default bullets */
+  /*Remove default bullets*/
   font-size: 0.75rem; }
 
 li::before {

@@ -1,24 +1,10 @@
-//Original
-/*$primary-color: #41B3A3;
-$complementary-color: #E8A87C;
-$accent-color: #E27D60;*/
-
-//Corporate and Serious
-/*$primary-color: #022140;
-$complementary-color: #265077;*/
-
-//Corporate and Traditional
 $primary-color: #254E58;
 $complementary-color: #88BDBC;
-$accent-color: #4F4A41;
-
-
 $plain-text-color: #3a4145;
 $off-white: hsl(0, 0%, 99%);
 
 body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  //line-height: 1.6;
   padding: 0;
   margin: 0;
   color: $plain-text-color;
@@ -36,17 +22,12 @@ body {
 
 section {
   border-bottom: 1px solid hsl(0, 0%, 90%);
-  //padding-top: 2.75rem;
-  //padding-bottom: 2.75rem;
   padding-left: 3rem;
   padding-right: 3rem;
   padding-bottom: 1rem;
 }
 
 #header {
-  //text-align: center;
-  //padding-bottom: 1rem;
-  //width: 100%;
   background-color: $primary-color;
   color: $off-white;
 }
@@ -81,10 +62,6 @@ section {
 #info i:hover {
   color: $complementary-color;
 }
-
-/*#header-logos {
-  margin-top: 0.5rem;
-}*/
 
 .left-link {
   margin-right: 0.25rem;
@@ -121,7 +98,6 @@ section {
 
 .external-link:hover {
   text-decoration: underline;
-  //color: -webkit-link;
   color: $complementary-color;
 }
 
@@ -129,12 +105,10 @@ section {
   display: block;
   width: auto;
   vertical-align: top;
-  //border-bottom: 1px solid hsl(0, 0%, 90%);
   padding-right: 3rem;
 }
 
 #projects h2 a {
-  //color: $accent-color;
   color: $primary-color;
 }
 
@@ -191,9 +165,7 @@ h2 {
   font-weight: bold;
   margin-bottom: 1rem;
   letter-spacing: 0.07rem;
-  //color: $accent-color;
   color: $primary-color;
-  //color: $complementary-color;
 }
 
 h3 {
@@ -201,7 +173,6 @@ h3 {
   font-weight: bold;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  //color: $accent-color;
 }
 
 h4 {
@@ -229,13 +200,12 @@ p {
 ul {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  list-style: none; /* Remove default bullets */
+  list-style: none; /*Remove default bullets*/
   font-size: 0.75rem;
 }
 
 li::before {
   content: "\2022";
-  //color: $accent-color;
   color: $primary-color;
   font-weight: bold;
   display: inline-block;
@@ -310,7 +280,6 @@ i {
     border-bottom: none;
     display: inline-block;
     width: 25%;
-    //padding-left: 0rem;
   }
 
   .left-list, .right-list {
@@ -325,6 +294,3 @@ i {
     margin-top: 0.5rem;
   }
 }
-
-
-
